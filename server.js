@@ -7,9 +7,7 @@ const path = require("path");
 const analyzeRoute = require("./routes/analyze");
 const humanizeRoute = require("./routes/humanize");
 const summarizeRoute = require("./routes/summarize");
-app.get("/",req,res)=>{
-  res.sendFile(path.join(__dirname,"../});
-const { getApiKey } = require("./utils/aiClient");
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
